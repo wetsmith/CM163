@@ -1,0 +1,1 @@
+A flickering/blur effect reminiscent of a VX1000 focusing under flourescent lighting. Blur is generated from mouse input, with the bottom left corner being zero blur and the top right corner being maximum blur.
