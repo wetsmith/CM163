@@ -1,0 +1,22 @@
+The screenshot is from the game INSIDE, a brief platformer title by Playdead. Previously known for Limbo,
+Playdead's two titles share a bleak, yet morbidly beautiful style.
+
+In INSIDE, the general lighting is very soft, at the atmosphere is thick and opaque. Natural light is rare,
+only occasionally breaking through the clouds or slipping through gaps in the roofing. What's peculiar, and
+personally captivating, about INSIDE's aesthetic is that it's shading resembles the toon shader discussed in
+class.
+
+The effect, peculiarly, is that while the material with which objects are made of is contextually clear (for
+instance the corroded metal safe) there is an undeniable clay-like or plastic-like sheen to almost everything
+in the game.
+
+There is a distinct hardness to the way edges are shaded, despite the aforementioned smooth, soft blending
+of light sources. Specifically, look at the red shirt on the player. Though there is a layer of smooth,
+natural light, there is also a distinct element of cel shading.
+
+I believe the effect was achieved by blending a first pass of toon shading with a later pass of traditional,
+smoother lighting. If I were to emulate the effect, I would first carefully construct my textures to not have
+excessive detail. Then, I would create a very harsh cel shader, perhaps with only four regions between
+a zero and one alpha value. Finally, I would pass through a more natural phong shader to achieve the final
+diorama-like aesthetic. Adjust some fog values, place some depressing lights, and boom - you might have something
+that resembles INSIDE.
